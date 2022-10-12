@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
 
-export const styles =StyleSheet.create({
-  container:{
-    flex:1,
-    alignItems:'center'
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
   },
   logo: {
     width: 214,
@@ -15,4 +15,4 @@ export const styles =StyleSheet.create({
     paddingLeft: 32,
     paddingRight: 64,
   }
-})
+});

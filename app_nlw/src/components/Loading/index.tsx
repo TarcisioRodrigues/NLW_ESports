@@ -1,13 +1,12 @@
-import { ActivityIndicator, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import {styles} from './styles'
-import { THEME } from '../../theme'
+import { View, ActivityIndicator } from 'react-native';
+import { THEME } from "../../theme";
 
-export const Loading=()=> {
+import { styles } from './styles';
+
+export function Loading() {
   return (
     <View style={styles.container}>
-      <ActivityIndicator color={THEME.COLORS.PRIMARY}/>
-
+      <ActivityIndicator color={THEME.COLORS.PRIMARY} />
     </View>
-  )
+  );
 }
